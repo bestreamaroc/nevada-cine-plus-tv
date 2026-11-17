@@ -25,12 +25,8 @@ jobs:
         run: |
           echo "ksp.incremental=false" >> gradle.properties
           echo "org.gradle.jvmargs=-Xmx4g -XX:+HeapDumpOnOutOfMemoryError" >> gradle.properties
-          if [ -f "./gradlew" ]; then
-            chmod +x gradlew
-            ./gradlew assembleDebug --no-daemon --no-configuration-cache --stacktrace
-          else
-            gradle assembleDebug --no-daemon --no-configuration-cache --stacktrace
-          fi
+          chmod +x gradlew || true
+          ./gradlew assembleDebug --no-daemon --no-configuration-cache --stacktrace
 
       - name: Upload NEVADA CINE PLUS APK
         uses: actions/upload-artifact@v4

@@ -1,0 +1,6 @@
+{
+  "name": "Nevada Cine Plus",
+  "description": "High-performance Android TV and Mobile IPTV streaming platform powered by BE STREAM with Xtream Codes, M3U playlists, live sports schedule, and cinema player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

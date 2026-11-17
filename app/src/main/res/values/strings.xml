@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nevada Cine Plus</string>
+    <string name="brand_title">NEVADA CINE PLUS</string>
+    <string name="brand_subtitle">powered by BE STREAM</string>
+    <string name="mode_playlist">Playlist (.m3u / .m3u8)</string>
+    <string name="mode_xtream">Xtream Codes</string>
+    <string name="mode_url">Direct M3U URL</string>
+    <string name="connect_and_cache">Connect &amp; Cache</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_live_tv">Live TV</string>
+    <string name="nav_matches">Today\'s Matches</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_series">Series</string>
+    <string name="open_external_player">Open in External Player (MX Player / VLC)</string>
+    <string name="search_placeholder">Search channels, movies, series, bouquets...</string>
+    <string name="all_categories">All Categories</string>
+</resources>
